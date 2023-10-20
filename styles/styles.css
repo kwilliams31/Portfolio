@@ -1,0 +1,161 @@
+body{
+    background-color: #cefdb3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%236b9056' fill-opacity='0.36'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  
+  .topnav {
+    background-color: #6B9056;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  
+  .nav-link {
+    float: right;
+  }
+  
+  .nav-link:hover{
+    color: #FAFAFA;
+  }
+  
+  .topnav a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .navbar-brand{
+    float: left;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0   rgba(0,0,0,0.2);
+    align: left;
+    margin: 20px 10px;
+  }
+  
+  .top-left{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #d8c996;
+    ;
+    
+  }
+  
+  .top-right{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px; 
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #d8c996;
+  }
+  
+  .card-title{
+    background-color: #E8F5E9;
+    padding: 6px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  #ghibli{
+    border-radius: 8px;
+    border: 4px solid;
+    border-style:double;
+    border-color: #92ce29;
+    margin-top: 8px;
+    padding: 5px;
+    width: 450px;
+    height: 600px; 
+  }
+  
+  
+  #rightImg{
+    float:right;
+    margin: 0px 0px 0px 50px;
+  }
+  
+  #profileImg {
+    border: 10px solid;
+    border-style: ridge;
+    border-color: #6B9056;
+    padding: 10px; 
+  }
+  
+  
+  .charCard {
+    padding: 5px 5px;
+    text-align: center;
+    /* margin: 5px 5px 15px 5px; */
+  }
+  
+  .charCard p{
+    text-align: left;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  
+  .charCard h4{
+    font-family: 'Silkscreen', cursive;
+  
+  }
+  
+  .workCard{
+    background-color: #E8F5E9;
+    padding: 5px 5px;
+    float: left;
+    margin: 10px 10px;
+    color: black;
+  }
+  
+  .hyperlink{
+    color: black;
+    hover: green;
+  }
+  
+  .acctsCard{
+    background-color: #E8F5E9;
+    padding: 5px 5px;
+    float: right;
+    margin: 10px 10px;
+    color: black;
+  }
+  
+  .card h4{
+    text-align:center;
+  }
+  
+  .footer {
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #557543;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  
+  .footer-link{
+    float: right;
+    color: black;
+    margin: 5px 10px;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover{
+    color: #FAFAFA;
+  }
