@@ -34,6 +34,10 @@ body{
     align: left;
     margin: 20px 10px;
   }
+
+  li{
+    margin-bottom: 8px;
+  }
   
   .top-left{
     position: absolute;
@@ -74,42 +78,12 @@ body{
     border-color: #92ce29;
     margin-top: 8px;
     padding: 5px;
-    width: 450px;
-    height: 600px; 
+    width: 500px;
+    height: 350px; 
   }
+
+
   
-  
-  #rightImg{
-    float:right;
-    margin: 0px 0px 0px 50px;
-  }
-  
-  #profileImg {
-    border: 10px solid;
-    border-style: ridge;
-    border-color: #6B9056;
-    padding: 10px; 
-  }
-  
-  
-  .charCard {
-    padding: 5px 5px;
-    text-align: center;
-    /* margin: 5px 5px 15px 5px; */
-  }
-  
-  .charCard p{
-    text-align: left;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 35px;
-  }
-  
-  .charCard h4{
-    font-family: 'Silkscreen', cursive;
-  
-  }
   
   .workCard{
     background-color: #E8F5E9;
@@ -119,10 +93,10 @@ body{
     color: black;
   }
   
-  .hyperlink{
+  /* .hyperlink{
     color: black;
     hover: green;
-  }
+  } */
   
   .acctsCard{
     background-color: #E8F5E9;
@@ -133,6 +107,11 @@ body{
   }
   
   .card h4{
+    text-align:center;
+  }
+
+  .card h6{
+    padding: 5px;
     text-align:center;
   }
   
