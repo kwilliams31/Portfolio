@@ -57,13 +57,53 @@
     <ul>
       <li> <a class="hyperlink" href=https://www.linkedin.com/in/kristina-williams-b28728215/ target="_blank">LinkedIn</a> Visit my LinkedIn profile </li>
       <li> <a class="hyperlink" href=https://github.com/kwilliams31 target="_blank">GitHub</a> Visit my GitHub profile</li>
-      <li><a class="hyperlink" href=https://github.com/kwilliams31/Portfolio/wiki/Resume target="_blank">Resume</a> See my resume </li>
       <li> Email 📧 krisew10@gmail.com </li>
+      <li>Resume
+        <img id="myImg" src="./photos/resume.png" alt="resume">
+      </li>
     
       </ul>
     </div>
   </div>
   </div>
+
+        <!-- Trigger the Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+  
+<script>
+  // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+  </script>
 
 </div>
 <!-- end of first row div inlcuing about me and account links -->
@@ -80,7 +120,7 @@
       <h6>All work done using Visual Studio Code, using the GitBash terminal to open and run the app as well as upload the information from the app to my GitHub repository.</h6>
       <ul>
         <li>
-      <a class="hyperlink" href=https://choose-your-adventure.onrender.com/ target="_blank">Choose your own adventure game</a> - This was a group capstone project for my Projects - Information Systems class ym last semester at UNA. This project presents a fullstack environment connecting to MongoDB for my databse and Render to deploy app as a webpage. I used javascript to write my code and embedded javascript (ejs) for the individual pages of the app.</li>
+      <a class="hyperlink" href=https://choose-your-adventure.onrender.com/ target="_blank">Choose your own adventure game</a> - This was a group capstone project for my Projects - Information Systems class my last semester at UNA. This project presents a fullstack environment connecting to MongoDB for my databse and Render to deploy app as a webpage. I used javascript to write my code and embedded javascript (ejs) for the individual pages of the app. I worked through Node and npm to build the environment. </li>
       <br>
         <li>
       <a class="hyperlink" href=https://kwilliams31.github.io/Diversity-Inclusion/ target="_blank">Diversity and Inclusion</a> - This is a side project I made to have as an easy access to recources and information regarding diversity and inclusion topics. This is something I value a lot and I was able to serve as the diversity and inlcusion chair for my sorority. Simple HTML and CSS.</li>
@@ -95,10 +135,10 @@
   </div>
 
 
-    <div id="ponoyPic" class="col-md-5 offset-sm-1">
+    <!-- <div id="ponoyPic" class="col-md-5 offset-sm-1">
   <img id="ghibli" src= "./photos/ponyo.gif" alt="pony-fish-gif">
-      </div>
-  
+      </div> -->
+
 
 
       <!-- end of row div for second cards -->
