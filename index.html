@@ -59,7 +59,7 @@
       <li> <a class="hyperlink" href=https://github.com/kwilliams31 target="_blank">GitHub</a> Visit my GitHub profile</li>
       <li> Email 📧 krisew10@gmail.com </li>
       <li>Resume
-        <img id="myImg" src="./photos/resume.png" alt="resume">
+        <img class="myImages" id="myImg" src="./photos/resume.png" alt="resume">
       </li>
     
       </ul>
@@ -82,18 +82,23 @@
   <div id="caption"></div>
 </div>
   
-<script>
+<!-- <script>
   // Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
+// var img = document.getElementById("myImg");
+var images = document.getElementsByClassName("myImages");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+for (var i = 0; i < images.length; i++){
+  var img =images[i];
+  //attatching click listener for the image
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
 }
 
 // Get the <span> element that closes the modal
@@ -103,7 +108,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-  </script>
+  </script> -->
 
 </div>
 <!-- end of first row div inlcuing about me and account links -->
@@ -116,7 +121,7 @@ span.onclick = function() {
   <div class="col-md-5 offset-sm-1">
   <div class="card">
     <div class="workCard">
-      <h4><b>My works 💼</b></h4>
+      <h4><b>My Github Projects 💼</b></h4>
       <h6>All work done using Visual Studio Code, using the GitBash terminal to open and run the app as well as upload the information from the app to my GitHub repository.</h6>
       <ul>
         <li>
@@ -144,8 +149,31 @@ span.onclick = function() {
       </div> -->
 
 
+      <!--card for screenshots of databse things -->
+<div class="col-md-5 offset-sm-1">
+  <div class="card">
+    <div class="acctsCard">
+      <h4><b>Other Projects</b></h4>
+      <h6>This is for work I have done in other classes but did not save on a site or personal device. All work was done in class. These projects include database creation and PHP.</h6>
+    <ul>
+      <li> This image presents all the items and data I inserted into the database. At the bottom of the image is shows the command I used to create an invoice for my data. I worked to create a MySQL database in an SSH brower using a Linux device. 
+         </li>
+         <img class ="myImages" id="myImg" src="./photos/invoiceCreation.png" alt="DB invoice inputs">
+
+        <li> This screenshots shows my database schema that I created to help understand and present the flow of data that I needed to input into the database.
+        </li>
+        <img class ="myImages" id="myImg" src="./photos/DbandChart.png" alt="Schema and Data">
+      <br>
+    
+      </ul>
+    </div>
+  </div>
+  </div>
 
       <!-- end of row div for second cards -->
     </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="./scripts/scripts.js"></script>
 
 </body>
