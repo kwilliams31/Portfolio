@@ -14,11 +14,24 @@
 <body>
 
     <!--nav bar-->
-<div class="topnav">
-    <a class="navbar-brand" >Resume github portfolio</a>
-    <a class="nav-link active" href=https://github.com/kwilliams31/Portfolio target="_blank">repo and code</a>
-  
-  </div>
+   
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+          <a class="nav-link active" href=https://github.com/kwilliams31/Portfolio target="_blank">repo and code</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+          </li>
+         <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+      </nav>
 
 
 
@@ -29,8 +42,7 @@
 <div class="row">
 
   <!-- card for about me -->
-  
-<div class="col-md-5 offset-sm-1">
+  <div class="container-fluid">
 <div class="card">
   <div class="workCard">
     <h4><b>About Me 🌟</b></h4>
@@ -49,23 +61,7 @@
 </div>
 </div>
 
-<!--card for accounts-->
-<div class="col-md-5 offset-sm-1">
-  <div class="card">
-    <div class="acctsCard">
-      <h4><b>Where to find me 👤</b></h4>
-    <ul>
-      <li> <a class="hyperlink" href=https://www.linkedin.com/in/kristina-williams-b28728215/ target="_blank">LinkedIn</a> Visit my LinkedIn profile </li>
-      <li> <a class="hyperlink" href=https://github.com/kwilliams31 target="_blank">GitHub</a> Visit my GitHub profile</li>
-      <li> Email 📧 krisew10@gmail.com </li>
-      <li>Resume
-        <img class="myImages" id="myImg" src="./photos/resume.png" alt="resume">
-      </li>
-    
-      </ul>
-    </div>
-  </div>
-  </div>
+
 
         <!-- Trigger the Modal -->
 
@@ -114,64 +110,6 @@ span.onclick = function() {
 <!-- end of first row div inlcuing about me and account links -->
 
 
-<!-- two cards for work and accounts -->
-<div class="row">
-
-    <!--card with projects-->
-  <div class="col-md-5 offset-sm-1">
-  <div class="card">
-    <div class="workCard">
-      <h4><b>My Github Projects 💼</b></h4>
-      <h6>All work done using Visual Studio Code, using the GitBash terminal to open and run the app as well as upload the information from the app to my GitHub repository.</h6>
-      <ul>
-        <li>
-      <a class="hyperlink" href=https://choose-your-adventure.onrender.com/ target="_blank">Choose your own adventure game</a> - This was a group capstone project for my Projects - Information Systems class my last semester at UNA. This project presents a fullstack environment connecting to MongoDB for my databse and Render to deploy app as a webpage. I used javascript to write my code and embedded javascript (ejs) for the individual pages of the app. I worked through Node and npm to build the environment. </li>
-      <br>
-        <li>
-      <a class="hyperlink" href=https://kwilliams31.github.io/Diversity-Inclusion/ target="_blank">Diversity and Inclusion</a> - This is a side project I made to have as an easy access to recources and information regarding diversity and inclusion topics. This is something I value a lot and I was able to serve as the diversity and inlcusion chair for my sorority. Simple HTML and CSS.</li>
-      <br>
-        <li>
-    <a class="hyperlink" href=https://quebec-lab-2tqp.onrender.com/ target="_blank">Add and Delete names</a> - This was the first simple app I created in one of my classes that showcased fullstack CRUD operations. This app linked to MongoDB for the database. </li>
-          <br>
-    <li>
-      <a class="hyperlink" href=https://kwilliams31.github.io/juliette-final/ target="_blank">Final web developement project </a> This was the final project for my Web Development class. We had to showcase an example of bad UX design and come up with a solution to make it a better functioning design. I chose my toater oven and added buttons and a slider for the timer.
-    </li>
-
-        </ul>
-
-    </div>
-  </div>
-  </div>
-
-
-    <!-- <div id="ponoyPic" class="col-md-5 offset-sm-1">
-  <img id="ghibli" src= "./photos/ponyo.gif" alt="pony-fish-gif">
-      </div> -->
-
-
-      <!--card for screenshots of databse things -->
-<div class="col-md-5 offset-sm-1">
-  <div class="card">
-    <div class="acctsCard">
-      <h4><b>Other Projects</b></h4>
-      <h6>This is for work I have done in other classes but did not save on a site or personal device. All work was done in class. These projects include database creation and PHP.</h6>
-    <ul>
-      <li> This image previews the data I inserted into the database. At the bottom of the image is shows the command I used to create an invoice for my data. I worked in class to create a MySQL database in an SSH brower using a Linux device. 
-         </li>
-         <img class ="myImages" id="myImg" src="./photos/invoiceCreation.png" alt="DB invoice inputs">
-
-        <li> This image shows my database schema. In class, we created these to help see the flow of data as it needed to be entered into the database. It also shows my data after the creation of the database.
-        </li>
-        <img class ="myImages" id="myImg" src="./photos/DbandChart.png" alt="Schema and Data">
-      <br>
-    
-      </ul>
-    </div>
-  </div>
-  </div>
-
-      <!-- end of row div for second cards -->
-    </div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="./scripts/scripts.js"></script>
